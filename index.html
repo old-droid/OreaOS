@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orea OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="desktop">
+        <div id="top-bar">
+            <div id="start-menu-button">Orea OS</div>
+            <div id="program-tray">
+                <!-- Minimized app icons will go here -->
+            </div>
+            <div id="window-controls"></div>
+            <div id="clock"></div>
+        </div>
+        <div id="start-menu" class="hidden">
+            <!-- Apps will be listed here -->
+        </div>
+        <div id="windows-container">
+            <!-- Windows will be rendered here -->
+        </div>
+    </div>
+
+    <script src="db.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/brython@3.11.2/brython.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/brython@3.11.2/brython_stdlib.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
